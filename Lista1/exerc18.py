@@ -1,0 +1,5 @@
+fitas = int(input("Insira a quantia de fitas: "))
+aluguel = int(input("Insira o aluguel: "))
+print("O faturamento anual é R$", ((fitas*aluguel*4)))
+print("Valor da multa mensal R$", ((aluguel*fitas/300)))
+print("O total de fitas ao final do ano é: ", (fitas - (fitas/50) + (fitas/10)))
